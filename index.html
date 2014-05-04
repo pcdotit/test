@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first mobile site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+        <script src="lib/jquery-2.1.1.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <div id="pageone" data-role="page">
+            <div data-role="header">
+                <h1>My First Mobile site</h1>
+            </div>
+            <div data-role="content">
+                <p>Welcome to my <strong>mobile</strong> site</p>
+                <p>Try me on all of your mobile devices! You can use any <strong>valid HTML</strong> on this page</p>
+                <img src="images/logodesign.png" alt="Logo Design" />
+                <a href="#pagetwo" data-role="button">Go to Page 2</a>
+                <p id="stamp">Powered by jQuery Mobile</p>
+                
+            </div>
+            <div data-role="footer">
+                <h3>Viva la footer!</h3>
+            </div>
+        </div>
+        <div id="pagetwo" data-role="page">
+            <div data-role="header">
+                <h1>My First Mobile Site </h1>
+            </div>
+            <div data-role="content">
+                <p>You've made it to page 2!</p>
+                <p>Isn't that awesome?</p>
+                <a href="#pageone" data-role="button">Go Back tp page 1</a>
+                <p id="stamp">Powered by jQuery Mobile</p>
+            </div>
+            <div data-role="footer">
+                <h3>Viva la footer!</h3>
+            </div>
+        </div>
+    </body>
+</html>
