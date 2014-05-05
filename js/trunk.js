@@ -12,6 +12,7 @@ $(function() {
 
     var items = $('.slide');
     var content = $('.content');
+	var navugation = $('.navigation');
 
     function open() {
         $(items).removeClass('close').addClass('open');
@@ -35,5 +36,10 @@ $(function() {
             close();
         }
     });
+	navigation.click(function() {
+		if (navigation.hasClass('open')) {
+			close();
+		}
+	});
 
 });
