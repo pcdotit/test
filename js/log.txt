@@ -1,0 +1,2 @@
+created ActionBarApp 
+edited RelativeLayout to LinearLayout in fragment_main.xml
